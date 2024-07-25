@@ -1,4 +1,4 @@
-**Parlez-vous: Interactive French Learning Chatbot**
+#**Parlez-vous: Interactive French Learning Chatbot**
 
 Parlez-vous is an innovative chatbot designed to facilitate French language learning through an interactive and engaging interface. Powered by the Zephyr 7B Beta language model, this application offers a unique, personalized French learning experience.
 
