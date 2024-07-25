@@ -1,41 +1,41 @@
-# ZephyrLLMChatbot
-A guideline to build no-cost LLM chatbot 
+Parlez-vous: Interactive French Learning Chatbot
 
-This README provides a structured and detailed guide to help users through the process of creating and deploying a customized LLM chatbot using Hugging Face Spaces and Gradio, highlighting key steps and customization options, complete with useful links for easy navigation.
+Parlez-vous is an innovative chatbot designed to facilitate French language learning through an interactive and engaging interface. Powered by the Zephyr 7B Beta language model, this application offers a unique, personalized French learning experience.
 
+Key Features:
+- French Language Instruction: Parlez-vous functions as a dedicated French teacher, offering:
+  * Interactive conversations for practice
+  * Vocabulary exercises
+  * Grammar tips
+  * Pronunciation guidance
+  * Cultural insights about French-speaking regions
+  * Resource recommendations for further learning
+  * Structured, step-by-step French language course tailored to user proficiency
 
-# Build and Deploy Your Custom LLM App in 5 Minutes for Free
+- Bilingual Responses: Parlez-vous provides English translations for all French content, ensuring clear understanding and effective learning.
 
-## Introduction
-Have you ever wished to craft a chatbot tailored to your needs? Whether it's a culinary wizard to guide you through complex recipes or an artistic mentor to discuss the nuances of painting techniques, this comprehensive guide is your gateway. We'll walk you through the simple steps to build and deploy your own LLM-based chatbot using [Hugging Face Spaces](https://huggingface.co/spaces) and Gradio—all in just five minutes, and absolutely free of charge!
+- Customizable Learning Experience: The chatbot's behavior can be fine-tuned through the system message, allowing for adaptable learning scenarios.
 
-## Prerequisites
-Before you  start creating your chatbot, make sure you have the following:
-- **A Hugging Face Account**: Essential for accessing the platform where you'll build and host your chatbot. [Sign up here](https://huggingface.co/join).
+Technical Details:
+- Built with Python using the Gradio library for the user interface
+- Utilizes Hugging Face's Inference API to interact with the Zephyr 7B Beta model
+- Allows adjustment of model parameters such as response length, temperature, and sampling method
 
-## Setup and Deployment
-1. **Choosing Your Chatbot’s Identity**: Decide what your chatbot will specialize in. This could be anything from a chef, painter, or even a relaxing buddy to help you unwind. The role you choose will define the interactions and capabilities of your chatbot.
+Usage:
+1. Launch the application:
+   python app.py
+2. Access the Parlez-vous interface via the provided URL
+3. Begin your French learning journey by engaging with the chatbot
 
-2. **Logging into Hugging Face**:  Here, you'll need an account to access the tools required for deploying your chatbot. If you don't have an account, signing up is straightforward and quick.
+Customization:
+The chatbot's core functionality is defined in the system message:
 
-3. **Navigating to Hugging Face Spaces**: Spaces are where the magic happens. This section of Hugging Face allows users to create and manage their applications seamlessly. Navigate to [Spaces](https://huggingface.co/spaces) to get started.
+"You are the French Teacher chatbot named Parlez-vous. Your purpose is to help users learn and practice French through interactive conversations, vocabulary exercises, grammar tips, and pronunciation practice. Additionally, provide cultural insights, recommend resources for further learning, and guide users through a structured, step-by-step French language course tailored to their proficiency level. Must include English translation every time you use French."
 
-4. **Creating Your Space**: Initiate a new space by clicking on 'Create New Space'. It’s important that the name of your Space reflects the chatbot's role, as it helps in identifying the application’s purpose at a glance.
+This message can be modified in the Gradio interface to adjust the chatbot's behavior and focus areas.
 
-5. **Configuring Your Chatbot**:
-   - **Selecting the Framework and Model**: Choose 'Gradio' as the framework for its user-friendly interface capabilities, and select a suitable model, such as 'Zephyr 7B', known for its versatility across various tasks.
-   - **Customization**: Here’s where you personalize the chatbot. Depending on the selected role, you might want to tailor system messages and interaction style. This customization will enable your chatbot to interact appropriately according to its role.
+Note:
+Parlez-vous is an educational project developed by a student. While it offers a robust platform for French language learning, it may require further refinement for commercial applications.
 
-6. **Deployment**: Once setup is complete, deploy your chatbot by simply clicking the create button. Deployment usually takes a couple of minutes. After this, your chatbot will be up and running and ready to interact.
-
-## Customization Example
-To make your chatbot truly unique, consider personalizing it extensively. For instance, if you choose a 'Relaxing Buddy' role:
-- Modify the system messages to include comforting phrases and stress-relief tips.
-- Program the chatbot to suggest relaxation exercises, guide through meditation sessions, or simply offer soothing conversations.
-
- Explore different roles and tweak the system instructions to discover the full potential of your chatbot. Don’t forget to share your creations and experiences, as your insights could inspire others in their chatbot development.
-
- If you wish to contribute: Please fork this repo. 
-
- For any question reach me out @ turna.fardousi@gmail.com
+ For any question reach me out @ ar4376398@alphacollege.me
 
